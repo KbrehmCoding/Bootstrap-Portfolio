@@ -1,0 +1,108 @@
+
+body {
+    background-image: url("../images/dust_scratches/dust_scratches.png");
+    margin: 0;
+}
+
+hr {
+    background-color: #cccccc;
+    border: 0;
+    height: 3px;
+}
+
+section {
+    margin-top: 100px;
+}
+
+#bio,
+#contact,
+#portfolio {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0 auto 20px;
+}
+
+#bio .inside-content,
+#contact .inside-content,
+#portfolio .inside-content {
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+
+#portfolio a {
+    text-decoration: none;
+}
+
+#bio p {
+    color: #777777;
+    font: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    padding: 0;
+}
+
+#bio h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+#bio img {
+    float: left;
+    height: auto;
+    padding: 20px;
+    padding-left: 0;
+    width: 300px;
+}
+
+#contact h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+#portfolio h1 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+img {
+    border: 0;
+    height: 150px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+
+.images1 {
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+
+#hangman,
+#rpg,
+#trivia,
+#widget,
+#rock {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    top: -60px;
+    width: 250px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+input {
+    width: 900px;
+}
+
+label {
+    color: #777777;
+}
